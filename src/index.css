@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: clamp(370px, 80%, 1200px);
+  min-height: 530px;
+  margin: 10px auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+input,
+button {
+  display: block;
+  margin: 10px auto;
+}
+.task {
+  display: flex;
+  gap: 10px;
+}
+.task input,
+.task button,
+h3 {
+  display: inline;
+}
+.task button {
+  cursor: pointer;
+}
+.error {
+  color: red;
+}
